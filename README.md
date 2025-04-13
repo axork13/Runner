@@ -48,17 +48,17 @@ Assets/
 
 ### Design pattern et techniques utilisés :
 
-> Singleton : GameManager
-> Coroutine : GeluleSpawner
-> Game Loop : Awake, Start, Update, Exit
-> Events : OnTriggerExit, OnColliderEnter, OnClick, etc..
-> UnityEvent : OnInitLife, OnChangeLife,...
-> Algorithme de la roulette : Permet de générer les Gelule en fonction de la barre de vie et d’un poids
+- Singleton : GameManager
+- Coroutine : GeluleSpawner
+- Game Loop : Awake, Start, Update, Exit
+- Events : OnTriggerExit, OnColliderEnter, OnClick, etc..
+- UnityEvent : OnInitLife, OnChangeLife,...
+- Algorithme de la roulette : Permet de générer les Gelule en fonction de la barre de vie et d’un poids
 
 ### Génération procédurale du terrain et des objets
-Le sol générer à partir d’un préfab Ground et d’un empty Spawner avec une collision box qui permet la création d’un nouveau Ground à chaque fois l’objet sort de celle-ci.
-Les Gelule générer aléatoirement à partir de 5 points de spawn (3 au départ, 4 au bout de 60s puis 5 au bout de 3 min).
-Un Scroller permet de faire avancer le tout.
-Un empty Destroyer permet de supprimer les éléments passer derrière le joueur hors de l’écran.
+- Le sol générer à partir d’un préfab Ground et d’un empty Spawner avec une collision box qui permet la création d’un nouveau Ground à chaque fois l’objet sort de celle-ci.
+- Les Gelule générer aléatoirement à partir de 5 points de spawn (3 au départ, 4 au bout de 60s puis 5 au bout de 3 min).
+- Un Scroller permet de faire avancer le tout.
+- Un empty Destroyer permet de supprimer les éléments passer derrière le joueur hors de l’écran.
 
 
