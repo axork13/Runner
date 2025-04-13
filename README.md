@@ -17,7 +17,7 @@ Comment gagner ?
 
 Comment perdre ?
 
-> L'une des jaunes de couleur est à 0.
+> L'une des jauges de couleur est à 0.
 
 ## 2. Le code source
 
