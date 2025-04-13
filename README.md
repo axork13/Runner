@@ -25,22 +25,25 @@ Comment perdre ?
 
 Le projet suit une architecture orientée objet.
 
-|-- Assets
-|-- |-- Audio           Contient les ressources audio
-|-- |-- |-- Musics			
-|-- |-- |-- Sounds
-|-- |-- Graphics				Contient les ressources graphiques
-|-- |-- |-- Materials
-|-- |-- |-- Models
-|-- |-- |--|-- Animations
-|-- |-- |-- Textures
-|-- |-- Prefabs				Contient les préfabriqués
-|-- |-- |-- Grounds
-|-- |-- |-- Gelule
-|-- |-- Scenes				Contient les scènes
-|-- |-- Scripts				Contient les scripts
-|-- |-- UI
-|-- |-- Save and Load
+```
+Assets/
+├── Audio/                 # Contient les ressources audio
+│   ├── Musics/
+│   └── Sounds/
+├── Graphics/              # Contient les ressources graphiques
+│   ├── Materials/
+│   ├── Models/
+│   │   └── Animations/
+│   └── Textures/
+├── Prefabs/               # Contient les préfabriqués
+│   ├── Grounds/
+│   └── Gelule/
+├── Scenes/                # Contient les scènes
+├── Scripts/               # Contient les scripts
+├── UI/
+└── Save and Load/
+```
+
 
 
 ### Design pattern et techniques utilisés :
